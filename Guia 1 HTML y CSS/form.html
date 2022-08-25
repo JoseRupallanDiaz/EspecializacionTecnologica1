@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="/css/design.css">
+</head>
+
+<body>
+    <nav>
+        <a href="/form.html">Formulario</a>
+        <a href="/table.html">Tabla</a>
+    </nav>
+    <div>
+        <div>
+            <h1>Registro Usuario</h1>
+        </div>
+        <div>
+            <h2>Ingrese sus datos</h2>
+        </div>
+        <div>
+            <form action="">
+                <div>
+                    <label id="name">Nombre</label>
+                    <input type="text" id="name" placeholder="Ingrese su nombre aquí">
+                </div>
+                <div>
+                    <label id="email">Correo</label>
+                    <input type="text" id="email" placeholder="Ejemplo@correo.com">
+                </div>
+                <div>
+                    <label id="gender">Genero</label>
+                    <select id="gender">
+                        <option>Seleccione...</option>
+                        <option value="Hombre">Hombre</option>
+                        <option value="Mujer">Mujer</option>
+                        <option value="Otro">Otro</option>
+                    </select>
+                </div>
+                <div>
+                    <label id="bornDate">Fecha de nacimiento</label>
+                    <input type="date">
+                </div>
+                <div>
+                    <label id="password">Contraseña</label>
+                    <input type="password">
+                </div>
+                <div>
+                    <input type="checkbox">
+                    <label>Acepto los <a href="/terms.html">Terminos y Condiciones</a></label>
+                </div>
+                <div>
+                    <input type="button" value="Limpiar">
+                    <input type="submit" title="Enviar">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
