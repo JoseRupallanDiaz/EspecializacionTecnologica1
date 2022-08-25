@@ -10,11 +10,11 @@
 </head>
 
 <body>
-    <nav>
-        <a href="/form.html">Formulario</a>
-        <a href="/table.html">Tabla</a>
+    <nav class="navbar">
+        <a class="navbar" href="/form.html">Formulario</a>
+        <a class="navbar" href="/table.html">Tabla</a>
     </nav>
-    <div>
+    <div class="main-container">
         <div>
             <h1>Registro Usuario</h1>
         </div>
@@ -22,7 +22,7 @@
             <h2>Ingrese sus datos</h2>
         </div>
         <div>
-            <form action="">
+            <form class ="form" action="">
                 <div>
                     <label id="name">Nombre</label>
                     <input type="text" id="name" placeholder="Ingrese su nombre aquí">
@@ -49,12 +49,12 @@
                     <input type="password">
                 </div>
                 <div>
-                    <input type="checkbox">
-                    <label>Acepto los <a href="/terms.html">Terminos y Condiciones</a></label>
+                    <input type="radio" id="terms">
+                    <label>Acepto los <a href="/terms.html">Terminos y Condiciones</a>.</label>
                 </div>
                 <div>
-                    <input type="button" value="Limpiar">
-                    <input type="submit" title="Enviar">
+                    <input class="button-primary" type="button" value="Limpiar">
+                    <input class="button-primary" type="submit" title="Enviar">
                 </div>
             </form>
         </div>

@@ -1,0 +1,64 @@
+*{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.navbar{
+    padding-block: 15px;
+    padding-inline: 10px;
+    background-color: #33334d;
+    border-radius: 5px;
+}
+a.navbar:link, a.navbar:visited{
+    text-decoration: none;
+    color: #b3b3cc;
+}
+a.navbar:hover{
+    transition-duration: 200ms;
+    color: #f0f0f5;
+}
+.main-container{
+    margin-inline: 5%;
+    padding-inline: 5%;
+    border-radius: 5px;
+}
+input[type=text], input[type=password], select, input[type=date]{
+    width: 100%;
+    padding: 8px 3px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border-color: #e0e0eb;
+    border: 1px solid #e0e0eb;
+}
+input[type=checkbox]{
+    border: 2px solid #b3b3cc;
+}
+.form div{
+    margin-block: 15px;
+}
+.button-primary{
+    background-color: #b3e6cc;
+    color:#29293d;
+    border: 2px solid #b3e6cc;
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+.button-primary:hover{
+    transition-duration: 200ms;
+    background-color: #40bf80;
+    border: 2px solid #40bf80;
+    color:#f0f0f5;
+}
+table{
+    width: 100%;
+}
+th{
+    background-color: #e0ccff;
+}
+td{
+    background-color: #e0e0eb;
+    font-style: italic;
+    text-align: center;
+}
+th, td{
+    padding-block: 10px;
+}
+
